@@ -13,5 +13,5 @@ RUN apt-get -y update &&\
     apt-get -y install python3.9 &&\
     apt-get -y install python3-pip &&\
     add-apt-repository -y --remove ppa:deadsnakes/ppa &&\
-    apt remove software-properties-common &&\
+    apt remove -y software-properties-common &&\
     apt-get -y clean
