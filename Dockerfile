@@ -12,6 +12,7 @@ RUN apt-get -y update &&\
     apt-get -y install shellcheck &&\
     apt-get -y install python3.9 &&\
     apt-get -y install python3-pip &&\
+    apt-get -y install gradle &&\
     add-apt-repository -y --remove ppa:deadsnakes/ppa &&\
     apt autoremove &&\
     apt remove -y software-properties-common &&\
