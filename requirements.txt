@@ -1,2 +1,4 @@
 SCons==4.5.1
 nox-poetry==1.0.0
+Poetry>=1.0.0
+nox==2022.11.21
