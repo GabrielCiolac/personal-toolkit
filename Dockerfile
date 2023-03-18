@@ -16,3 +16,6 @@ RUN apt-get -y update &&\
     apt autoremove &&\
     apt remove -y software-properties-common &&\
     apt-get -y clean
+
+ADD requirements.txt requirements.txt
+RUN python3 -m pip install -r requirements.txt
