@@ -14,6 +14,7 @@ RUN apt-get -y update &&\
     apt-get -y install python3-pip &&\
     apt-get -y install gradle &&\
     apt-get -y install bats &&\
+    apt-get -y install git &&\
     add-apt-repository -y --remove ppa:deadsnakes/ppa &&\
     apt autoremove &&\
     apt remove -y software-properties-common &&\
